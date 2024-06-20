@@ -18,11 +18,14 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+
 }
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
 }
 
 body {
@@ -31,6 +34,7 @@ body {
   color: #444;
   line-height: 1.9;
   background-color: #f3f3f3;
+  overflow-x: hidden;
 }
 
 /* GENERAL ELEMENTS */
@@ -39,6 +43,7 @@ body {
   border-top: 1px solid #ddd;
 
   transition: transform 1s, opacity 1s;
+  overflow-x: hidden;
 }
 
 .section--hidden {
@@ -186,6 +191,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .header__title {
@@ -200,6 +206,8 @@ img {
 
   align-items: start;
   justify-items: start;
+ 
+
 }
 
 h1 {
